@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-
 public class ContadorTeste {
     public static void main(String[] args) throws Exception {
         Scanner scr = new Scanner(System.in);
 
-
+        
         System.out.print("Primeiro parâmetro: ");
         int parametro1 = scr.nextInt();
         System.out.print("Segundo parâmetro: ");
